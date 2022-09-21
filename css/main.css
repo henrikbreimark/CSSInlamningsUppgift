@@ -1,0 +1,78 @@
+/*Tre olika fonts används. Den första används till sitens rubrik, vilken jag vill ha lite mer unik.
+Den andra fonten används till övriga rubriker och överskrifter på siten.
+Den tredje används till "brödtext".*/
+
+@font-face {
+    font-family: quicksandSemiBold;
+    src: url(fonts/quicksand/static/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: oxygen;
+    src: url(fonts/oxygen/Oxygen-Light.ttf);
+}
+
+
+html {
+    font-size: 100%;
+}
+
+
+/*Generella regler*/
+
+body {
+    font-family: oxygen, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: quicksandSemiBold, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3.8rem;
+    font-weight: 450;
+    text-transform: lowercase;
+    letter-spacing: 0.08rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+
+/*Form*/
+aside {
+    border: 1px solid blue; /*Ändra färger*/
+}
+
+form {
+    border: 1px solid blue; /*Ändra färger*/
+}
+
+form ul {
+    margin: 1rem auto 1rem;
+}
+
+/*Footer with copyright info*/
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+footer p a {
+    text-decoration: none;
+}
